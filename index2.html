@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/media.css">
     <link rel="stylesheet" href="/css/bootstrap-grid.css">
@@ -18,98 +16,95 @@
 </head>
 
 <body>
-    <div class="page-header">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <header class="master-head">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-nav justify-content-md-between">
-                                    <nav class="page-nav-buttons order-1">
-                                        <button class="nav-button log-in">Log in</button>
-                                        <button class="nav-button sign-up">Sign up</button>
-                                    </nav>
-                                    <a href="#" class="page-logo">URLAUBSGLÜCK</a>
-                                </div>
+    <header class="masterhead">
+        <div class="page-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="nav">
+                            <div class="menu-buttons">
+                                <button class="nav-button">Log in</button>
+                                <button class="nav-button">Sign up</button>   
                             </div>
-                            <div class="col-12">
-                                <div class="header-main-content">
-                                    <h2 class="text">Share your holiday dreams</h2>
-                                    <p class="subtext">And find the perfect partner to fullfill it</p>
-                                    <button class="find-button">Find your holiday partner</button>
-                                </div>
-                            </div>                        
+                            <a href="#" class="logo-link">URLAUBSGLÜCK</a>
                         </div>
-                    </header>
+                    </div>
+                    <div class="menu-text">
+                        <div class="col-12 col-md-8 offset-md-2">
+                            <h2 class="menu-title">Share your holiday dreams</h2>
+                        </div>
+                        <div class="col-12">
+                            <p class="subtext">And find the perfect partner to fullfill it</p>
+                        </div>
+                        <div class="col-12 col-md-4 offset-md-4">
+                            <button class="menu-text-button">Find your holiday partner</button>
+                        </div>
+                </div>               
                 </div>
             </div>
         </div>
-    </div>
-    <main class="page-main">
-        <div class="container-md">
+    </header>
+    <main>
+        <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <section class="partners-section">
+                    <section class="team">
                         <div class="row">
                             <div class="col-12">
-                                <h2 class="section-title">Meet a partner for your best holiday</h2>
+                                <h2 class="section-title">Meet a partner for your best holiday</h2> 
                             </div>
-                            <!-- <div class="col-12"> -->
-                                <div class="row justify-content-md-center">
-                            <div class="col-12 col-md-5 col-xl-3">
-                                <div class="partners-item">
-                                    <div class="partners-item-pictures">
-                                        <img src="/img/team/team1.png" alt="Bradley Hunter" width="122"
-                                                    height="122">
-                                        <div class="partners-item-icon tv-icon"></div>
-                                    </div>
-                                        <h3 class="partner-name">Bradley Hunter</h3>
-                                        <p class="partner-bio">Based in Chicago. I love playing tennis and loud
-                                                music.</p>
-                                </div>
-                            </div>
+                            <div class="col-12">
+                                <div class="row justify-content-md-center ">
                                     <div class="col-12 col-md-5 col-xl-3">
-                                        <div class="partners-item">
-                                            <div class="partners-item-pictures">
-                                                <img src="/img/team/team2.png" alt="Lucas Marsha" width="122"
-                                                    height="122">
-                                                <div class="partners-item-icon chem-icon"></div>
+                                        <div class="section-team-card">
+                                            <div class="photo-icon">
+                                                <img src="/img/team/team1.png" alt="Bradley Hunter" width="121" height="120">
+                                                <div class="circle icon-tv"></div>
                                             </div>
-                                            <h3 class="partner-name">Lucas Marsha</h3>
-                                            <p class="partner-bio">I get my inspiration from nature and objects around
-                                                me. I have a passion to colours, typography and skateboards.
+                                            <h4 class="team-name">Bradley Hunter</h4>
+                                            <p class="team-card-discription">Based in Chicago. I love playing tennis and loud music.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-5 col-xl-3 order-md-3">
+                                        <div class="section-team-card">
+                                            <div class="photo-icon">
+                                                <img src="/img/team/team2.png" alt="Lucas Marsha" width="121" height="120">
+                                                <div class="circle icon-chem"></div>
+                                            </div>
+                                            <h4 class="team-name">Lucas Marsha</h4>
+                                            <p class="team-card-discription">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.
                                             </p>
                                         </div>
-                                        <div class="col-12 col-md-5 col-xl-3">
-                                            <div class="partners-item">
-                                                <div class="partners-item-pictures">
-                                                    <img src="/img/team/team3.png" alt="Heather Walker" width="122"
-                                                        height="122">
-                                                    <div class="partners-item-icon cup-icon"></div>
-                                                </div>
-                                                <h3 class="partner-name">Heather Walker</h3>
-                                                <p class="partner-bio">I'm a happy person that loves cats and climbing
-                                                    on mountains. </p>
+                                    </div>
+                                    <div class="col-12 col-md-5 col-xl-3">
+                                        <div class="section-team-card">
+                                            <div class="photo-icon">
+                                                <img src="/img/team/team3.png" alt="Heather Walker" width="121" height="120">
+                                                <div class="circle icon-cup"></div>
                                             </div>
+                                            <h4 class="team-name">Heather Walker</h4>
+                                            <p class="team-card-discription">I'm a happy person that loves cats and climbing on mountains.
+                                            </p>
                                         </div>
-                                        <div class="col-12 col-md-5 col-xl-3">
-                                            <div class="partners-item">
-                                                <div class="partners-item-pictures">
-                                                    <img src="/img/team/team-4.png" alt="Bradley Hunter" width="122"
-                                                        height="122">
-                                                    <div class="partners-item-icon plane-icon"></div>
-                                                </div>
-                                                <h3 class="partner-name">Bradley Hunter</h3>
-                                                <p class="partner-bio">Based in Chicago. I love playing tennis and loud
-                                                    music.</p>
+                                    </div>
+                                    <div class="col-12 col-md-5 col-xl-3 order-md-1">
+                                        <div class="section-team-card">
+                                            <div class="photo-icon">
+                                                <img src="/img/team/team-4.png" alt="Bradley Hunter" width="121" height="120">
+                                                <div class="circle icon-plane"></div>
                                             </div>
+                                            <h4 class="team-name">Bradley Hunter</h4>
+                                            <p class="team-card-discription">Based in Chicago. I love playing tennis and loud music.</p>
                                         </div>
                                     </div>
                                 </div>
-                            <!-- </div> -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button class="more-button">See other partners</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <button class="more">See other partners</button>
                     </section>
                 </div>
             </div>

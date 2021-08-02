@@ -19,167 +19,173 @@ body{
     color: #333333;
     font-size: 14px;
     line-height: 17px;
+    min-width: 320px;
 }
 
-.page-header{
-    margin-bottom: 70px;
-    height: 540px;
-    background-image: url(/img/VectorSmartObject-banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+/* Menu */
+.page-menu{
+    padding-top: 30px;
+}
+
+.masterhead{
     margin: 0 auto;
     background-color: black;
+    background-image: url("/img/VectorSmartObject-banner.png");
+    background-repeat: no-repeat;
+    background-size:cover;
     min-height: 540px;
     max-height: 700px;
     text-align: center;
     background-position: center;
 }
 
-
-
 .nav-button{
-    width: 90px;
-    height: 32px;
+    color: #fff;
     font-weight: 700;
-    color: #ffffff;
     background-color: transparent;
-    border: 0px;
-    cursor: pointer;
-    transition: 0.3s linear;
+    border: 0;
+    line-height: 17px;
+
 }
 
 .nav-button:hover{
     border: 2px solid #fff;
-    border-radius: 40px ;
+    border-radius: 10px;
 }
 
-.page-logo{
+.nav-button:first-child{
+    margin-right: 20px;
+}
+
+.menu-buttons{
+    margin-bottom: 114px;
+}
+
+.logo-link{
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
-    cursor:pointer;
-
 }
 
-.text{
-    font-size: 30px;
+.menu-title{
+    font-size: 28px;
     line-height: 36px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
-    
-}
-
-.subtext{
-    font-family: "Roboto", serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.find-button{
+.subtext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.menu-text-button{
     width: 280px;
     height: 40px;
-    border-radius: 40px;
-    background-color: #ff4e50;
     color: #fff;
-    border: #ff4e50;
-    cursor: pointer;
+    font-weight: bold;
+    background-color: #ff4e50;
+    border:#ff4e50;
+    border-radius: 40px;
 }
 
-.find-button:hover{
-    transform: scale(1.05);
-}
 
-/* MAIN SECTION */
-.page-main{
+/* MAIN */
+.team{
+    margin-top: 65px;
     text-align: center;
 }
 
 .section-title{
-    font-weight: 700;
-    font-size: 22px;
     line-height: 26px;
-    color: #333333;
-    
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
 }
 
-
-
-.partners-item{
-
+.section-team-card{
+    margin: 0 auto 29px;
     width: 217px;
 }
 
-
-.partners-item-pictures{
+.photo-icon{
+    width: 121px;
+    height: 120px;
     position: relative;
-    width: 122px;
+    margin: 0 auto 20px;
 }
 
-
-.partner-bio{
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    color: #666666;
-    text-align: center;
-    margin: 0;
-}
-
-.partners-item-icon{
-    width: 33px;
-    height: 33px;
-    border: 4px solid #fff;
+.circle{
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: #ff4e50;
-    background-repeat: no-repeat;
+    width: 33px;
+    height: 33px;
     border-radius: 50%;
-
+    border: 4px solid #fff;
+    background-color: #ff4e50;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: content-box;  
 }
 
-.tv-icon{
+.icon-tv{
     background-image: url(/img/icons/tv-icon.png);
-    background-position: 50% 50%;
 }
 
-.chem-icon{
+.icon-chem{
     background-image: url(/img/icons/chem-icon.png);
     background-color: #ffa507;
-    background-position: 50% 50%;
 }
 
-.cup-icon{
+.icon-cup{
     background-image: url(/img/icons/cup-icon.png);
     background-color: #1cd7ad;
-    background-position: 50% 30%;
 }
 
-.plane-icon{
+.icon-plane{
     background-image: url(/img/icons/plane-icon.png);
     background-color: #4e73db;
-    background-position: 30% 50%;
 }
 
-.more{
+.team-name{
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.team-card-discription{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.more-button{
     width: 280px;
     height: 40px;
+    background-color: transparent;
     border: 2px solid #ff4e50;
-    background-color: #fff;
-    font-weight: 700;
-    color: #ff4e50;
     border-radius: 40px;
+    color: #ff4e50;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
     margin-bottom: 57px;
 }
 
-.more:hover{
-    filter: drop-shadow(2px 2px 2px #ff4e50 );
-    transform: scale(1.05);
+.more-button:hover{
+    background-color: #ff4e50;
+    color: #fff;
 }
